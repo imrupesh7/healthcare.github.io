@@ -1437,4 +1437,9 @@ header {
         width: 95%;
         margin: 0rem auto;
     }
+
+    .footer-mainbox {
+        width: 95%;
+        margin: 5rem auto;
+      }
 }
