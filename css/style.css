@@ -32,7 +32,7 @@ html {
     height: auto;
     margin: auto;
     background: url("img/doctor1.png");
-   }
+}
 
 .topbar-container {
     width: 100%;
@@ -41,7 +41,7 @@ html {
     padding: 0 10%;
     border-bottom: 0.1rem solid rgba(119, 119, 119, 0.112);
     /*  */
-            }
+}
 
 
 .topbar-container-inner1 {
@@ -126,15 +126,17 @@ header .logo {
     height: 80%;
     object-fit: contain;
     object-position: center;
+
 }
 
 
 header nav {
-    width: 80%;
+    width: auto;
     height: 100%;
     display: flex;
     justify-content: right;
     align-items: center;
+
 }
 
 header nav ul {
@@ -439,7 +441,7 @@ hr {
     padding: 5rem 0;
 }
 
- .heading {
+.heading {
     width: 80%;
     height: 10rem;
     color: #000;
@@ -459,7 +461,7 @@ hr {
     color: var(--main-color);
 }
 
- .heading p {
+.heading p {
     font-size: 1.3rem;
     color: var(--text-color);
     font-weight: 500;
@@ -725,7 +727,7 @@ hr {
 }
 
 
-.feedback-home{
+.feedback-home {
     width: 80%;
     height: auto;
     margin: 0 10%;
@@ -735,20 +737,20 @@ hr {
 }
 
 
-.item{
+.item {
     width: 100%;
     height: 250px;
     margin: 5rem 0;
     position: relative;
 }
 
-.feedback-home1{
+.feedback-home1 {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color:var(--main-color);
+    background-color: var(--main-color);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -758,30 +760,31 @@ hr {
     border-radius: 2rem;
 }
 
-.feedback-home1 i{
-    margin: 0.5rem ;
+.feedback-home1 i {
+    margin: 0.5rem;
     color: var(--second-color);
 }
 
-.feedback-home1 p{
+.feedback-home1 p {
     font-size: 1.3rem;
     color: rgba(240, 240, 240, 0.612);
 }
 
 
 
-.feedback-home1 h1{
+.feedback-home1 h1 {
     font-size: 2rem;
     color: var(--five-color);
 }
 
 
 
-.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
-  background:var(--main-color);
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: var(--main-color);
 }
 
-.faq-container{
+.faq-container {
     width: 80%;
     height: auto;
     margin: 0rem 10%;
@@ -790,19 +793,19 @@ hr {
     flex-wrap: wrap;
 }
 
-.faq-home{
+.faq-home {
     width: 48%;
     height: 100%;
 }
 
-.faq-home h1{
+.faq-home h1 {
     display: block;
     font-size: 4rem;
     color: #000;
     margin: 5rem 0;
 }
 
-.faq-contentheading{
+.faq-contentheading {
     width: 100%;
     height: auto;
     padding: 0rem 0%;
@@ -811,7 +814,7 @@ hr {
     transition: none;
 }
 
-.faq-contentheading h3{
+.faq-contentheading h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -826,7 +829,7 @@ hr {
     color: var(--main-color);
 }
 
-.faq-contentheading i{
+.faq-contentheading i {
     cursor: pointer;
     display: inline-block;
     width: 30px;
@@ -837,11 +840,11 @@ hr {
     justify-content: center;
     align-items: center;
     color: var(--five-color);
-    
+
 }
 
 
-.faq-content{
+.faq-content {
     width: 100%;
     height: auto;
     font-size: 1.3rem;
@@ -861,37 +864,37 @@ hr {
 
 
 
-.form-home{
+.form-home {
     width: 48%;
     height: 630px;
 }
 
 
 
-.form-home h1{
+.form-home h1 {
     display: block;
     font-size: 4rem;
     color: #000;
-    margin: 5rem 0 0 0 ;
+    margin: 5rem 0 0 0;
 }
 
-.form-home h1 span{
+.form-home h1 span {
     color: var(--main-color);
 }
 
-.form-home p{
+.form-home p {
     text-align: justify;
     color: var(--text-color);
     margin: 1rem 0;
 }
 
 
-.form{
+.form {
     width: 100%;
     height: auto;
 }
 
-.form input{
+.form input {
     width: 48%;
     height: 50px;
     margin: 0.5rem 0;
@@ -900,11 +903,11 @@ hr {
     border: 1px solid var(--text-color);
 }
 
-.form input:focus{
+.form input:focus {
     border: 1px solid var(--main-color);
 }
 
-.form textarea{
+.form textarea {
     width: 100%;
     height: 150px;
     margin: 0.5rem 0;
@@ -913,12 +916,12 @@ hr {
     border: 1px solid var(--text-color);
 }
 
-.form textarea:focus{
+.form textarea:focus {
     border: 1px solid var(--main-color);
 }
 
 
-.form select{
+.form select {
     width: 48%;
     height: 50px;
     padding: 0 2%;
@@ -928,31 +931,31 @@ hr {
     border: 1px solid var(--text-color);
 }
 
-.form select:focus{
+.form select:focus {
     border: 1px solid var(--main-color);
 }
 
-#sbtn{
+#sbtn {
     width: 100%;
     background: var(--main-color);
     color: var(--five-color);
     cursor: pointer;
 }
 
-#sbtn:hover{
+#sbtn:hover {
     background: var(--second-color);
 }
 
-.footer-container{
+.footer-container {
     width: 100%;
     height: auto;
     background: var(--main-color);
 }
 
-.footer-mainbox{
+.footer-mainbox {
     width: 80%;
     height: auto;
-    margin:5rem  10%;
+    margin: 5rem 10%;
     margin-bottom: 1rem;
     display: flex;
     justify-content: space-between;
@@ -960,24 +963,24 @@ hr {
     border-bottom: 1px solid rgba(240, 240, 240, 0.119);
 }
 
-.footerinner{
+.footerinner {
     width: 24%;
     height: 350px;
     flex-wrap: wrap;
     color: var(--five-color);
 }
 
-.footerinner img{
+.footerinner img {
     width: 80%;
     margin-top: 5rem;
 }
 
-.footerinner h1{
+.footerinner h1 {
     margin-top: 5rem;
     font-size: 2rem;
 }
 
-.footerinner h1::after{
+.footerinner h1::after {
     display: block;
     content: '';
     width: 20%;
@@ -986,8 +989,8 @@ hr {
     margin-top: 0.5rem;
 }
 
-.footerinner p{
-    font-size:1.3rem;
+.footerinner p {
+    font-size: 1.3rem;
     font-weight: 500;
     text-align: justify;
     margin: 1rem 0;
@@ -995,7 +998,7 @@ hr {
     padding-right: 5%;
 }
 
-.search-icon input{
+.search-icon input {
     width: 80%;
     height: 100%;
     float: left;
@@ -1005,7 +1008,7 @@ hr {
     padding-left: 2%;
 }
 
-.search-icon .icon{
+.search-icon .icon {
     float: right;
     width: 20%;
     height: 100%;
@@ -1016,34 +1019,34 @@ hr {
     font-size: 1.4rem;
 }
 
-.search-icon{
+.search-icon {
     width: 100%;
     height: 40px;
 }
 
-.footerinner li{
+.footerinner li {
     margin: 1rem 0;
 }
 
-.footerinner li::before{
+.footerinner li::before {
     content: "\f105";
-  font-family: FontAwesome;
-  color: rgba(240, 240, 240, 0.612);
+    font-family: FontAwesome;
+    color: rgba(240, 240, 240, 0.612);
 }
- 
 
-.footerinner li a{
+
+.footerinner li a {
     font-size: 1.3rem;
     font-weight: 500;
     color: rgba(240, 240, 240, 0.612);
 }
 
-.footerinner li a:hover{
+.footerinner li a:hover {
     margin-left: 1rem;
     color: var(--five-color);
 }
 
- .social{
+.social {
     widows: 100%;
     height: 30px;
     display: flex;
@@ -1051,92 +1054,93 @@ hr {
     align-items: center;
 }
 
-.social ul{
-  display: flex; 
+.social ul {
+    display: flex;
 }
 
 .social ul li {
     margin-left: 2rem;
-  }
-
-  .social ul li::before{
-    content: "";
-  }
-  
- .social ul li a{
-   font-size: 2rem;
-   display: inline-block;
-   width: 30px;
-   height: 30px;
-   background-color: rgba(240, 240, 240, 0.612);
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   border-radius: 50%;
 }
 
-.social ul li a:hover{
+.social ul li::before {
+    content: "";
+}
+
+.social ul li a {
+    font-size: 2rem;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(240, 240, 240, 0.612);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.social ul li a:hover {
     color: var(--main-color);
     margin: 0;
 
 }
 
-.social ul li:first-child{
+.social ul li:first-child {
     margin-left: 0;
 }
 
 
 
-.social1{
-  
+.social1 {
+
     width: auto;
     height: auto;
 }
 
-.social1 ul{
+.social1 ul {
     display: flex;
 }
 
-.social1 ul li a img{
+.social1 ul li a img {
     width: 100px;
     margin: 0 1rem;
 }
 
-.social1 ul li a:hover{
-    margin:0 ;
+.social1 ul li a:hover {
+    margin: 0;
 }
 
-.social1 ul li a img:first-child{
+.social1 ul li a img:first-child {
     margin-left: 0;
 }
 
 .social1 li::before {
     content: "";
-  }
+}
 
-  .credit{
-      width: 100%;
-      height: 70px;
-      background-color: #0f1b31;
-      padding: 0 10%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: rgba(240, 240, 240, 0.612);
-  }
+.credit {
+    width: 100%;
+    height: 70px;
+    background-color: #0f1b31;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(240, 240, 240, 0.612);
+    text-align: center;
+}
 
-  .credit h1{
-      font-weight: 500;
-      font-size: 1.5rem;
-  }
+.credit h1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
 
-  .emergency{
+.emergency {
     width: 100px;
-    height:15px;
+    height: 15px;
     background: var(--second-color);
     position: fixed;
     top: 50%;
-    left:0 ;
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1145,20 +1149,20 @@ hr {
     display: none;
     text-align: center;
 
-  }
+}
 
 
-  .emergency a{
+.emergency a {
     color: var(--five-color);
-    font-weight: 500;    
-  }
+    font-weight: 500;
+}
 
-  .scrolltop{
- display: none;
-    }
-    
+.scrolltop {
+    display: none;
+}
 
-  .scrolltop i{
+
+.scrolltop i {
     text-align: center;
     width: 50px;
     height: 50px;
@@ -1176,14 +1180,15 @@ hr {
 }
 
 
-  .scrolltop i:hover{
-      background: var(--five-color);
-      color: var(--main-color);
-  }
+.scrolltop i:hover {
+    background: var(--five-color);
+    color: var(--main-color);
+}
 
 
-  header  {
-      background-color:#fff}
+header {
+    background-color: #fff
+}
 
 
 
@@ -1282,18 +1287,19 @@ hr {
 
 
     .feature-boxinner {
-        height: auto;}
+        height: auto;
+    }
 
     .div {
 
-        height: auto    ;
+        height: auto;
     }
 
     .img {
         width: 100%;
     }
 
-    
+
 
     .intro-inner:nth-child(2):after {
         display: none;
@@ -1306,86 +1312,91 @@ hr {
 
     .feature-boxinner1 {
         width: 48%;
-        
+
     }
 
-    .faq-home{
+    .faq-home {
         width: 100%;
         height: auto;
     }
 
-    .form-home{
-        width: 100%;}
+    .form-home {
+        width: 100%;
+    }
 
-        .footerinner{
-            width: 50%;}
+    .footerinner {
+        width: 50%;
+    }
 
-            .topbar-container{
-                display: none;
-            }
-
-
-            .footer-mainbox{
-                height: auto;
-                margin:5rem  10%;
-                margin-bottom: 1rem;
-           
-            }
-            
-             .footerinner{
-                height: auto;
-                padding: 1% 0%;
-            } 
-            
+    .topbar-container {
+        display: none;
+    }
 
 
-          
+    .footer-mainbox {
+        height: auto;
+        margin: 5rem 10%;
+        margin-bottom: 1rem;
+
+    }
+
+    .footerinner {
+        height: auto;
+        padding: 1% 0%;
+    }
+
+
+
+
 }
 
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
 
-.footerinner{
-    width: 100%;
-}}
+    .footerinner {
+        width: 100%;
+    }
+}
 
 
-@media (max-width:576px){
+@media (max-width:576px) {
 
-    html{
+    html {
         font-size: 45%;
     }
- 
+
     .intro-inner:first-child:after {
         display: none;
     }
-    
-    .intro-inner{
+
+    .intro-inner {
         width: 100%;
     }
 
     .feature-boxinner1 {
-        width: 100%;}
+        width: 100%;
+    }
 
 
     .feature-boxinner {
-        width: 100%;}
+        width: 100%;
+    }
 
-        .footerinner {
-    width: 100%;
+    .footerinner {
+        width: 100%;
 
-        }
+    }
 
 }
 
-@media (max-width:480px){
+@media (max-width:480px) {
 
-    html{
+    html {
         font-size: 50%;
     }
 
@@ -1395,34 +1406,35 @@ hr {
 
     .txt h1 {
         font-size: 5rem;
-      }
+    }
 
-      .txt p {
+    .txt p {
         font-size: 10px;
-      }
+    }
+
     .intro {
         width: 95%;
 
-      }
+    }
 
     .heading {
         width: 95%;
         height: auto;
-        padding: 3% 5%;}
+        padding: 3% 5%;
+    }
 
-        .feature-mainbox {
-            width: 95%;}
+    .feature-mainbox {
+        width: 95%;
+    }
 
-            .tabs {
-                width: 95%;
-                margin: 0 auto;
-                height: auto;
-              
-              }
+    .tabs {
+        width: 95%;
+        margin: 0 auto;
+        height: auto;
+    }
 
-              .faq-container {
-                width: 95%;
-                margin: 0rem auto;
-              }
-
+    .faq-container {
+        width: 95%;
+        margin: 0rem auto;
+    }
 }
